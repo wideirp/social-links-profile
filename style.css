@@ -88,8 +88,8 @@ main {
       padding: 12px;
       text-align: center;
       transition: background-color 0.15s ease-in;
-      /* transition: color 0.1s ease-in 0.1s; */
     }
+
     li:hover,
     li:active,
     li:focus {
