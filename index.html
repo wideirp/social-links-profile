@@ -12,16 +12,26 @@
       href="./assets/images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href=" .css" />
     <title>Frontend Mentor | Social links profile</title>
   </head>
   <body>
     <main>
-      <article>
-        <img src="assets/images/avatar-jessica.jpeg" alt="avatar-image" />
-        <h3>Jessica Randall</h3>
-        <h4>London, United Kingdom</h4>
-        <p>"Front-end developer and avid reader."</p>
-        <nav>
+      <article class="card">
+        <picture class="profile-pic">
+          <img src="assets/images/avatar-jessica.jpeg" alt="avatar-image" />
+        </picture>
+
+        <section class="name-location">
+          <h3>Jessica Randall</h3>
+          <h4>London, United Kingdom</h4>
+        </section>
+
+        <section class="bio">
+          <p>"Front-end developer and avid reader."</p>
+        </section>
+
+        <nav class="links">
           <li href="#">GitHub</li>
           <li href="#">Frontend Mentor</li>
           <li href="#">LinkedIn</li>
