@@ -80,26 +80,32 @@ main {
     padding: 0;
 
     li {
-      font-size: var(--text-preset-2);
-      font-weight: bold;
-      color: var(--White);
-      background-color: var(--Grey-700);
       width: 100%;
-      border-radius: 8px;
-      padding: 12px;
-      text-align: center;
-      transition: background-color 0.15s ease-in;
-    }
 
-    li:hover,
-    li:active,
-    li:focus {
-      background-color: var(--Green);
-      color: var(--Grey-700);
-      transition: background-color 0s;
-      transition: color 0s;
-      border: none;
-      outline: none;
+      a {
+        display: block;
+        text-decoration: none;
+        font-size: var(--text-preset-2);
+        font-weight: bold;
+        color: var(--White);
+        background-color: var(--Grey-700);
+        width: 100%;
+        border-radius: 8px;
+        padding: 12px;
+        text-align: center;
+        transition: background-color 0.15s ease-in;
+      }
+
+      a:hover,
+      a:active,
+      a:focus {
+        background-color: var(--Green);
+        color: var(--Grey-700);
+        transition: background-color 0s;
+        transition: color 0s;
+        border: none;
+        outline: none;
+      }
     }
   }
 }
